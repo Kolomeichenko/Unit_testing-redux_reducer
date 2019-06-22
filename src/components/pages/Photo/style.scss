@@ -1,0 +1,22 @@
+.main-photo {
+  position: relative;
+  margin-top: 15px;
+  box-shadow: 0 0px 2px 2px #00000057;
+}
+
+.main-photo img {
+  max-width: 100%;
+}
+
+.photo-header {
+  position: absolute;
+  background: #ffffffd1;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  font-size: 22px;
+  p {
+    margin: 0;
+  }
+}

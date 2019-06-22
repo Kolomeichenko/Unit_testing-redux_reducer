@@ -1,0 +1,21 @@
+.header {
+  background: yellowgreen;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li a {
+  padding: 10px 15px;
+  display: block;
+  font-size: 24px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.header ul li a.active {
+  background: #9bb95f;
+}

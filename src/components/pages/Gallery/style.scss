@@ -1,0 +1,49 @@
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .photo {
+    position: relative;
+    max-width: 200px;
+    margin: 10px;
+    height: 300px;
+    box-shadow: 0 0 3px 2px #00000082;
+    overflow: hidden;
+    padding: 15px;
+    
+    span {
+      position: absolute;
+      display: block;
+      right: 5px;
+      top: 5px;
+      background: #000;
+      border-radius: 50%;
+      height: 35px;
+      width: 35px;
+      color: #fff;
+      line-height: 35px;
+      font-size: 20px;
+    }
+
+    b {
+      position: absolute;
+      display: block;
+      left: 5px;
+      top: 5px;
+      background: green;
+      border-radius: 50%;
+      height: 35px;
+      width: 35px;
+      color: #fff;
+      line-height: 35px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    i {
+      margin-bottom: 15px;
+      display: block;
+      font-size: 18px;
+    }
+  }
+}
